@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>MakeMyTrip</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- font awesome cdn -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<!-- fonts -->
+	<link rel = "stylesheet" href = "font/fonts.css">
+	<!-- normalize css -->
+	<link rel = "stylesheet" href = "css/normalize.css">
+	<!-- custom css -->
+	<link rel = "stylesheet" href = "css/utility.css">
+	<link rel = "stylesheet" href = "css/style.css">
+	<link rel = "stylesheet" href = "css/responsive.css">
+</head>
+
+<body class="login-b">
+	<div class="container">
+		
+        <h2  style="margin-left:500px; font-size:30px; color:skyblue"><strong>MakeMyTrip</strong></h2>
+        <form>
+            <div class="form-group" style="margin-left:300px">
+                <input type="text" style="border-radius:20px; height: 30px; border-color: black;width:500px"  name="name" id="name" placeholder="Full Name" required="">
+           
+            </div>
+            <br>
+
+        <div class="form-group"  style="margin-left:300px">
+            <input type="email" style="border-radius:20px; height: 30px; border-color: black; width:500px" name="username" id="username" aria-describedby="emailHelp" placeholder="Enter email" required="">
+            
+        </div>
+        <br>
+
+        <div class="form-group" style="margin-left:300px">
+            <input type="password" style="border-radius:20px; height: 30px; border-color: black;width:500px"  name="password" id="password" placeholder="Password" required="">
+        </div>
+        <br>
+
+        <div class="form-group" style="margin-left:300px">
+            <input type="password" style="border-radius:20px; height: 30px; border-color: black;width:500px"  name="password" id="password" placeholder="Confirm Password" required="">
+        </div>
+        <br>
+        <button type="button" style="margin-left:530px; border-radius:30px" class="btn btn-primary"(click) ="login(username, password)">Register</button>
+        </form>
+        <br>
+
+        <h5  style="margin-left:450px">Dont have an account? <a style="color:blue" href="login.html">Login</a>
+</div>
+
+</body>
+
+</html>
